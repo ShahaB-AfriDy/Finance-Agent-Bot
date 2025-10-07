@@ -1,0 +1,49 @@
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyproj
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Jupyter & Colab ===
+.ipynb_checkpoints
+*.ipynb_save
+*.ipynb_kernel.json
+
+# === VS Code / Sublime / IDE files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & temporary files ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Virtual Environments ===
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# === Cache & Data ===
+.cache/
+__pycache__/
+*.sqlite3
